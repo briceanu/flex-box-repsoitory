@@ -1,0 +1,36 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100wv;
+  height: 60vh;
+  background: yellowgreen;
+  border: 3px solid firebrick;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid black;
+  background-color: aqua;
+  flex: 3 wrap;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-items {
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid rgb(235, 45, 45);
+  background-color: rgb(202, 243, 243);
+}
